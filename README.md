@@ -29,9 +29,9 @@ Analizar tanto los circuitos RC como los circuitos RL, para poder identificar su
 3.- Marco teórico
 
 ![image](https://user-images.githubusercontent.com/105684550/186252902-49faa3fd-0db8-4dcb-92d7-9ed655980e77.png)
-Link del mapa mental: https://www.canva.com/design/DAFKK_ONCDo/gUa7E9PDDwcNO3sNHhF-Sg/view?utm_content=DAFKK_ONCDo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+![image](https://user-images.githubusercontent.com/105684550/186260798-2f7b3c55-3f2e-4cdb-9b95-4d4aafb7208a.png)
 
-Link del mapa mental:
+Link del mapa mental: https://www.canva.com/design/DAFKK_ONCDo/gUa7E9PDDwcNO3sNHhF-Sg/view?utm_content=DAFKK_ONCDo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 4.- Resolución
 
