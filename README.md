@@ -16,7 +16,8 @@
 
   2.1.- Objetivo general:
   
-Analizar tanto los circuitos RC y RL        
+Analizar tanto los circuitos RC como los circuitos RL, para poder identificar sus características y definir su comportamiento al estar en serie y/o paralelo, con el fin de poder diferenciarlos y aplicar lo aprendido en la resolución de los ejercicios.
+
   2.2.- Objetivo específicos:
   
 - Usar números complejos para expresar cantidades fasoriales para describir la relación entre corriente y voltaje en un circuito RC en serie y/o paralelo
@@ -37,16 +38,16 @@ Link del mapa mental:
 
 6.- Conclusiones
 
-- La CA una vez generada y distribuida a enormes distancia, es disminuida en su diferencia de potencial y aumentada su corriente, lo cual posibilita su uso de la casa, comercial e industrial. Es de mucha trascendencia las características de los circuitos CA, ya que han sido por un largo tiempo y son el soporte diario de la ingeniería eléctrica y la electrónica en el reparto de energía, iluminación, producción y sistemas industriales. En la actualidad, casi toda la corriente doméstica, comercial e industrial, es corriente alterna, esto es, corriente que invierte sentido constante y regularmente frecuentemente por segundo. 
+- Los capacitores tienen muchas aplicaciones que utilizan su capacidad de almacenar carga y energía. uando se descarga un capacitor.la corriente Io y la carga inicial Qo: tanto i como q se acercan asintóticamente a cero.La carga en el capacitor varía con el tiempo de acuerdo con la ecuación q(t) = Qe-t/RC, la caída de potencial a traves de la resistencia, IR, debe ser igual a la diferencia de potencial a través del capacitor, q / C entonce IR = q/c.
 
-- Se ha podido determinar varias de las funciones del osciloscopio tales como medir la elevación de las señales observadas en la pantalla, se dirige manipulando los controles del bloque vertical. El ancho de las señales observadas en la pantalla, se controlan manipulando los controles del bloque horizontal. El equilibrio de la imagen en la pantalla se consigue manipulando los controles del bloque de sincronismo. 
+- El circuito RC tiene miles de usos y es un circuito muy importante para estudiar. No solo se puede utilizar para cronometrar circuitos, sino también para filtrar frecuencias no deseadas en un circuito y se utiliza en fuentes de alimentación, como la de su computadora, para ayudar a convertir el voltaje ac en dc.
 
-- Se pudo observar que en la aplicación de circuito el proceso de cómo usar un capacitor para acoplar voltajes de señales hacia y a partir de un amplificador. Además se localizo fallas en el amplificador mediante maneras de onda vistas en un osciloscopio 
+- En un circuito RC en paralelo el costo de la tensión es el mismo, tanto en el condensador como en la resistencia y la corriente que se entrega al circuito divide entre ambos elementos. La corriente que pasa por la resistencia y la tensión que hay en ella permanecen en etapa y la corriente en el capacitor esta adelantada con en relación a la tensión, que es igual mencionar que la tensión está retrasada con en relación a la corriente.
 
 7.- Bibliografía
 
-- Planas, O. (2016, agosto 9). Corriente alterna (CA) - Frecuencias, concepto y definición. Energía solar. Recuperado julio 11, 2022, de https://solar-energia.net/electricidad/corriente-electrica/corriente-alterna
+- Calculisto. (2018, abril 18). Circuito RC. Calculisto. Recuperado agosto 23, 2022, de https://www.calculisto.com/topics/circuitos-electricos/357
 
-- Roberths, P. (2017, agosto 20). El voltaje alterno. coparoman. Recuperado julio 11, 2022, de https://coparoman.blogspot.com/2017/08/el-voltaje-alterno.html
+- ElectrónicaOnline. (2015, septiembre 05). Circuito RL: Funcionamiento, Diagrama Fasorial, Impedancia y sus Usos. Electrónica. Recuperado agosto 23, 2022, de https://electronicaonline.net/electronica/circuito-rl-funcionamiento-usos/
 
 - Floyd, T. (2007). Principios de circuitos eléctricos (Octava ed.). PEARSON EDUCACIÓN.
