@@ -10,20 +10,21 @@
 
                                                           Informe Tarea N°8
                                                      
-1.- Tema: 
+1.- Tema: Circuitos RC / Circuitos RL
 
 2.- Objetivos:
 
   2.1.- Objetivo general:
   
-Determinar las características de las corrientes y voltajes alternos ya sea en circuitos en serio y/o paralelo y su vez en los circuitos CD y CA para poder aplicarlos en la resolución, simplificación y hallazgo de varibles en un circuito.
-        
+Analizar tanto los circuitos RC y RL        
   2.2.- Objetivo específicos:
   
-        - Identificar la forma y lo que genera una onda sinusoidal para determinar los diversos valores de voltaje y corriente de dicha onda seno usando el osciloscopio.
-        - Determinar el comportamiento de voltajes, corrientes y resistencias en los circuitos CD y CA.
-        - Describir la composición y funcionamiento de un capacitor conjuntamente con su comportamiento en un circuito en serie, paralelo, CD y CA.
-        
+- Usar números complejos para expresar cantidades fasoriales para describir la relación entre corriente y voltaje en un circuito RC en serie y/o paralelo
+
+- Determinar la impedancia de un circuito RC en serie y/o paralelo para analizar un circuito RC en serie/paralelo.
+
+- Analizar un circuito RL en serie y/o paralelo, describiendo la relación entre corriente y voltaje en un circuito RL para determinar la impedancia de este circuito.
+
 3.- Marco teórico
 
 Link del mapa mental: 
