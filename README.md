@@ -34,11 +34,11 @@ Link del mapa mental: https://www.canva.com/design/DAFKK_ONCDo/gUa7E9PDDwcNO3sNH
 
 4.- Resolución
 
-                                                                      CIRCUITOS RC
+                                                              CIRCUITOS RC
 
 1
 
-                                                                      CIRCUITOS RL
+                                                              CIRCUITOS RL
 
 2
 
