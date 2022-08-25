@@ -545,190 +545,177 @@ La salida adelanta en 3.55° a la entrada.
 
 20. Repita el problema 19 para las siguientes frecuencias: Se debe determinar la impedancia expresada en forma polar.
 
+![image](https://user-images.githubusercontent.com/105684550/186561851-60c4d382-5cd0-47a0-b4bd-9aad9b70bf87.png)
 
+La inductancia se expresa con la letra Z
 
+- a) 1.5 Hz
 
-
-
--La inductancia se expresa con la letra Z
-a) 1.5 Hz
 Determinando primeramente  la reactancia inductiva
+
 X_L=2πfL=2π(1.5Hz)(800μH)=7.53kΩ
+
 Z=((RX_L)/√(R^2+〖X_L〗^2 ))∠〖tan〗^(-1) (R/X_L )
+
 Z=(((12)(0.00753))/√(〖12〗^2+〖(0.00753)〗^2 ))∠〖tan〗^(-1) (12/0.00753)=7.52∠89.96° kΩ
 
+- b) 3kHz
 
-
-
-
-
-b) 3kHz
 Determinando primeramente  la reactancia inductiva
+
 X_L=2πfL=2π(3000Hz)(800μH)=15.07Ω
+
 Z=((RX_L)/√(R^2+〖X_L〗^2 ))∠〖tan〗^(-1) (R/X_L )
+
 Z=(((12)(15.07))/√(〖12〗^2+〖(15.07)〗^2 ))∠〖tan〗^(-1) (12/15.07)=9.38∠38.52° Ω
 
-c) 5kHz
+- c) 5kHz
+
 Determinando primeramente  la reactancia inductiva
+
 X_L=2πfL=2π(5000Hz)(800μH)=25.13Ω
+
 Z=((RX_L)/√(R^2+〖X_L〗^2 ))∠〖tan〗^(-1) (R/X_L )
+
 Z=(((12)(25.13))/√(〖12〗^2+〖(25.13)〗^2 ))∠〖tan〗^(-1) (12/25.13)=10.83 ∠25.53° Ω
 
-d) 10kHz
+- d) 10kHz
+
 Determinando primeramente  la reactancia inductiva
+
 X_L=2πfL=2π(10000Hz)(800μH)=50.27Ω
+
 Z=((RX_L)/√(R^2+〖X_L〗^2 ))∠〖tan〗^(-1) (R/X_L )
+
 Z=(((12)(50.27))/√(〖12〗^2+〖(50.27)〗^2 ))∠〖tan〗^(-1) (12/50.27)=11.67 ∠13.43° Ω
-
-
-
 
 22. Encuentre la corriente total y cada corriente de rama en la figura 16-64.
 
-
-
-
+![image](https://user-images.githubusercontent.com/105684550/186562014-58ce6cb4-2277-4a41-9248-2a8e52787e20.png)
 
 I_R=V_S/R=(10∠0° V)/(2.2kΩ∠0°)=4.54∠0° mA
+
 I_L=V_S/XL=(10∠0° V)/(3.5kΩ∠90°)=2.85∠-90° mA
+
 I_tot=√(〖I_R〗^2+〖I_L〗^2 )∠-〖tan〗^(-1) (I_L/I_R )=√((4.54)^2+(2.85)^2 )∠-〖tan〗^(-1) (2.85/4.54)=5.36∠-32.12° mA
 
 24. Repita el problema 23 para R =56Ω y L =330 µH.
--Se debe determinar: a) Z, b) IR,  c)IL, d)ITotal, e) Angulo theta. 
 
+Se debe determinar: a) Z, b) IR,  c)IL, d)ITotal, e) Angulo theta. 
 
+![image](https://user-images.githubusercontent.com/105684550/186562077-5294f9a8-538c-4f05-867e-0be8019714db.png)
 
+- a) Determinando primeramente  la reactancia inductiva
 
-
-
-a) Determinando primeramente  la reactancia inductiva
 X_L=2πfL=2π(2000Hz)(330μH)=10.05Ω
+
 Z=((RX_L)/√(R^2+〖X_L〗^2 ))∠〖tan〗^(-1) (R/X_L )
+
 Z=(((56)(10.05))/√(〖56〗^2+〖(10.05)〗^2 ))∠〖tan〗^(-1) (56/10.05)= 9.89∠ 79.83° Ω
-b)
-I_R=V_S/R=(50∠0° V)/(56Ω∠0°)=0.892 ∠0° A
 
-c) 
-I_L=V_S/XL=(50∠0° V)/(10.05Ω∠90°)=4.98 ∠-90° A
+- b) I_R=V_S/R=(50∠0° V)/(56Ω∠0°)=0.892 ∠0° A
 
-d) 
-I_tot=√(〖I_R〗^2+〖I_L〗^2 )∠-〖tan〗^(-1) (I_L/I_R )=√((0.892)^2+(4.98)^2 )∠-〖tan〗^(-1) (4.98/0.892)=5.059∠-79.84° A
+- c) I_L=V_S/XL=(50∠0° V)/(10.05Ω∠90°)=4.98 ∠-90° A
 
-e)
-θ=-〖tan〗^(-1) (IL/IR)=-〖tan〗^(-1) (4.98/0.892)= -79.84 °
+- d)  I_tot=√(〖I_R〗^2+〖I_L〗^2 )∠-〖tan〗^(-1) (I_L/I_R )=√((0.892)^2+(4.98)^2 )∠-〖tan〗^(-1) (4.98/0.892)=5.059∠-79.84° A
+
+- e) θ=-〖tan〗^(-1) (IL/IR)=-〖tan〗^(-1) (4.98/0.892)= -79.84 °
 
 26. Determine la magnitud y el ángulo de fase de la corriente total que aparece en la figura 16-67.
 
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/105684550/186562212-48996e3a-6207-4609-aa24-d5c7757d9e9a.png)
 	
 I_tot=√(〖I_R〗^2+〖I_L〗^2 )∠-〖tan〗^(-1) (I_L/I_R )=√((5)^2+(8.3)^2 )∠-〖tan〗^(-1) (8.3/5)=9.69∠-58.93° mA
 
-
-
-
-
-
-
-
 28. ¿Es el circuito de la figura 16-68 predominantemente resistivo o predominantemente inductivo?
-	
 
+![image](https://user-images.githubusercontent.com/105684550/186562269-b36a306e-8a17-4219-b95d-e55dcc32d7cd.png)
 
-
-
-
-
-
--Es predominantemente inductivo ya que para que sea predominante resistivo, debe presentarse una sola resistencia, y en este caso se tiene tres resistencias conectadas. En este tipo de circuito, la corriente está por detrás del voltaje en un ángulo de 90 grados.
+- Es predominantemente inductivo ya que para que sea predominante resistivo, debe presentarse una sola resistencia, y en este caso se tiene tres resistencias conectadas. En este tipo de circuito, la corriente está por detrás del voltaje en un ángulo de 90 grados.
 
 30. Para el circuito de la figura 16-69, determine lo siguiente:
 
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/105684550/186562340-325b847c-792d-4332-b092-a2c977352b64.png)
 
 -En el circuito existen dos impedancias formadas por 
+
 X_L1=2πfL=2π(80kHz)(10mH)=5.026kΩ
+
 X_L2=2πfL=2π(80kHz)(8mH)=4.021KΩ
+
 Z1=R1+jXL1=3.3kΩ+j5.026 kΩ
+
 Z2=R2+jXL2=5.6kΩ+j4.021 kΩ
+
 Z1=√(〖(3.3)〗^2+〖(5.026)〗^2 )∠ 〖tan〗^(-1) (5.026/3.3)=6.01∠56.71°
+
 Z2=√(〖(5.6)〗^2+〖(4.021)〗^2 )∠ 〖tan〗^(-1) (4.021/5.6)=6.89∠35.68°
-a) I total
+
+- a) I total
+
 Ztot=Z1+Z2=8.9kΩ+j9.047 kΩ
+
 Ztot=√(〖(Z1)〗^2+〖(Z2)〗^2 )  ∠ 〖tan〗^(-1) (Z2/Z1)= √(〖(8.9)〗^2+〖(9.047)〗^2 )  ∠ 〖tan〗^(-1) (9.047/8.9)=12.69∠45.47° kΩ
+
 Itot=Vs/Ztot=(18∠0°)/(12.69∠45.47°)=1.41 mA
 
-b) θ
+- b) θ
+
 〖θ=tan〗^(-1) (9.047/8.9)=45.47°
 
+- c) VR2
 
-c) VR2
 VR2=I1∙R2=(3∠-56.71°)∙(5.6∠90°)=(16.8∠33.29°)  V
 
-d) VR3
+- d) VR3
+
 I1=Vs/Z1=(18∠0°)/(6.01∠56.71°)=3∠-56.71° mA
+
 I2=Vs/Z2=(18∠0°)/(6.89∠35.68°)=2.61∠-35.68° mA
+
 VR1=I1∙R1=(3∠-56.71°)∙(3.3∠0°)=(9.9∠-56.71°)  V
 
-e) VL1
+- e) VL1
+
 VL1=I1∙XL1=(3∠-56.71°)∙(5.026∠90°)=(15.07∠33.29°)  V
 
-f) VL2
+- f) VL2
+
 VR2=I2∙XL2=(2.61∠-35.68°)∙(4.021∠0°)=(10.49∠-35.68°)  V
 
-
-
-
-
 36. En cierto circuito RL, la potencia verdadera es de 100 mW, y la potencia reactiva de 340 mVAR. ¿Cuál es la potencia aparente?
+
 -La potencia aparente se calcula mediante la corriente al cuadrado por la impedancia, asi que se debe primero obtener los valores de las resistencias y el voltaje de la fuente para poder corroborar los valores dados y obtener la potencia aparente. 
 
 38.  ¿Cuál es el factor de potencia en la figura 16-64?
 
-
-
-
-
+![image](https://user-images.githubusercontent.com/105684550/186562551-46199a32-3a81-4f7b-b259-95f48f8aad6a.png)
 
 Z=√(R^2+〖XL〗^2  )  ∠ 〖tan〗^(-1) (XL/R)= √(〖(2.2)〗^2+〖(3.5)〗^2  )  ∠ 〖tan〗^(-1) (3.5/2.2)=4.13 ∠ 57.85°
+
 FP=cos⁡(θ)=cos⁡(57.85)=0.532 
 
 42. Con el mismo procedimiento del problema 41, trace la curva de respuesta para la figura 16-62.
 
+![image](https://user-images.githubusercontent.com/105684550/186562586-393c555a-cb49-403c-af15-90f874de6516.png)
 
+V entrada: 1000Hz                                                                                     
+![image](https://user-images.githubusercontent.com/105684550/186562607-6c0a129a-049a-4cc5-8de0-1ec5d5f96fc7.png)
 
+V salida: 1000Hz
+![image](https://user-images.githubusercontent.com/105684550/186562646-61d9b693-485f-4fca-9845-589c0451980b.png)
 
+V entrada: 2000Hz
+![image](https://user-images.githubusercontent.com/105684550/186562693-29f3b98e-0720-4434-86d1-40ba7231933c.png)
 
+V salida: 2000Hz
+![image](https://user-images.githubusercontent.com/105684550/186562710-379ddf1b-bf6e-449d-bab3-a059da7c0ee0.png)
 
+V entrada: 3000Hz
+![image](https://user-images.githubusercontent.com/105684550/186562779-0d111a66-d889-4b38-a6e5-bbfb5a4fc4bd.png)
 
-
-
-
-
-
-
-V entrada: 1000Hz                                                                                     V salida: 1000Hz
-
-V entrada: 2000Hz                                                                                     V salida: 2000Hz
-
-
-
-
-
-
-
-
-
-V entrada: 3000Hz                                                                                     V salida: 3000Hz
+V salida: 3000Hz
+![image](https://user-images.githubusercontent.com/105684550/186562790-62288c17-4eaf-49f5-a279-97c1f1b0bf80.png)
 
 
 5.- Video
