@@ -274,7 +274,8 @@ Z= 287.92 < -20.32°
 Z= 1209.29 < -55.78°
 
 28. Determine el ángulo de fase entre el voltaje aplicado y la corriente para cada circuito de la figura 15-85.
-a. θ=-0.09°
+
+- a. θ=-0.09°
 
 I=V/Z
 
@@ -282,7 +283,7 @@ I=(50<0°)/147000< -0.09°
 
 I= 3.40x10^-4 < 0.009°
 
-b. θ=-88.43°
+- b. θ=-88.43°
 
 I=V/Z
 
@@ -290,7 +291,285 @@ I=(8<0°)/18465.68< -88.43°
 
 I= 9.45x10^-4 < 88.43°
 
---------------------------------------------------------------------------------------------------------------------
+30. Para el circuito de la figura 15-87, trace el diagrama fasorial que muestre todos los voltajes y la corriente total. Indique los ángulos de fase.
+  
+![image](https://user-images.githubusercontent.com/105684550/186563200-872ce58f-c420-4140-9fc4-14e6fa406270.png)
+
+X_C=1/2ᴨfC=1/2ᴨ(1.5kHz)(0.0022µF) =48.22kΩ
+
+Z=R-jX_C
+
+Z=56kΩ-j(48.22kΩ)
+
+Z=√(R^2+XC^2 )∠-〖tan^(-1)〗⁡〖(Xc/R)〗
+
+Z=√(〖(56kΩ)〗^2+〖(48.22kΩ)〗^2 )∠-〖tan^(-1)〗⁡〖((48.22kΩ)/56kΩ)〗
+
+Z=73.80∠-40.73°kΩ
+
+I=V/Z=(10∠0° V)/(73.80∠-40.73°kΩ)=0.14∠40.73° mA
+
+![image](https://user-images.githubusercontent.com/105684550/186563372-14da8414-11c3-4c6a-8938-4ac76dbc9c80.png)
+
+32. ¿A qué valor se debe ajustar el reóstato de la figura 15-89 para hacer que la corriente total sea de 10 mA? ¿Cuál es el ángulo resultante?
+
+Z=√(R^2+XC^2 )∠-〖tan^(-1)〗⁡〖(Xc/R)〗
+
+Z=√(〖(3.9kΩ)〗^2+〖(4.08kΩ)〗^2 )∠-〖tan^(-1)〗⁡〖((4.08kΩ)/(3.9kΩ))〗
+
+Z=5.64∠-46.29°kΩ
+
+Z=5.64 kΩ y θ=-46.29°
+
+Entonces; θ=46.29°
+
+34. Para el circuito de retraso de la figura 15-91, determine el desplazamiento de fase entre el voltaje de entrada y el voltaje de salida para cada una de las siguientes frecuencias:
+ 
+![image](https://user-images.githubusercontent.com/105684550/186563400-d57bd8d8-11f8-43bb-908b-2285ccbfb1c2.png)
+
+- a) 1 Hz
+
+X_C=1/2ᴨfC=1/2ᴨ(1*10^(-3) kHz)(0.039µF) =4080.9kΩ
+
+Z=√(R^2+XC^2 )∠-〖tan^(-1)〗⁡〖(Xc/R)〗
+
+Z=√(〖(3.9kΩ)〗^2+〖(4080.9kΩ)〗^2 )∠-〖tan^(-1)〗⁡〖((4080.9kΩ)/(3.9kΩ))〗
+
+Z=4080.9∠-89.94°kΩ
+
+Z=4080.9kΩ y θ=-89.94°
+
+- b) 100 Hz
+
+X_C=1/2ᴨfC=1/2ᴨ(0.1kHz)(0.039µF) =40.80kΩ
+
+Z=√(R^2+XC^2 )∠-〖tan^(-1)〗⁡〖(Xc/R)〗
+
+Z=√(〖(3.9kΩ)〗^2+〖(40.80kΩ)〗^2 )∠-〖tan^(-1)〗⁡〖((40.80kΩ)/(3.9kΩ))〗
+
+Z=40.98∠-84.53°kΩ
+
+Z=40.98kΩ y θ=-84.53°
+
+- c) 1 kHz
+
+X_C=1/2ᴨfC=1/2ᴨ(1kHz)(0.039µF) =4.08 kΩ
+
+Z=√(R^2+XC^2 )∠-〖tan^(-1)〗⁡〖(Xc/R)〗
+
+Z=√(〖(3.9kΩ)〗^2+〖(4.08kΩ)〗^2 )∠-〖tan^(-1)〗⁡〖((4.08kΩ)/(3.9kΩ))〗
+
+Z=5.64∠-46.29°kΩ
+
+Z=5.64 kΩ y θ=-46.29°
+
+- d) 10 kHz
+
+X_C=1/2ᴨfC=1/2ᴨ(10kHz)(0.039µF) =0.40kΩ
+
+Z=√(R^2+XC^2 )∠-〖tan^(-1)〗⁡〖(Xc/R)〗
+
+Z=√(〖(3.9kΩ)〗^2+〖(0.40kΩ)〗^2 )∠-〖tan^(-1)〗⁡〖((0.40kΩ)/(3.9kΩ))〗
+
+Z=3.92 ∠-5.85°kΩ
+
+Z=3.92kΩ y θ=-5.85°
+
+Se observa que como se incrementa la frecuencia, Xc, Z y ϑ disminuyen.
+
+36. Repita el problema 34 para el circuito de adelanto de la figura 15-92.
+ 
+ ![image](https://user-images.githubusercontent.com/105684550/186563554-43eacfb9-6753-40ae-84e9-46229e2bd0a2.png)
+
+- a) 1 Hz
+
+X_C=1/2ᴨfC=1/2ᴨ(1*10^(-3) kHz)(10µF) =15.91kΩ
+
+Z=√(R^2+XC^2 )∠-〖tan^(-1)〗⁡〖(Xc/R)〗
+
+Z=√(〖(0.01kΩ)〗^2+〖(15.91kΩ)〗^2 )∠-〖tan^(-1)〗⁡〖((15.91kΩ)/(0.01kΩ))〗
+
+Z=15.91∠-89.96°kΩ
+
+Z=15.91kΩ y θ=-89.96°
+
+- b) 100 Hz
+
+X_C=1/2ᴨfC=1/2ᴨ(0.1kHz)(10µF) =0.15kΩ
+
+Z=√(R^2+XC^2 )∠-〖tan^(-1)〗⁡〖(Xc/R)〗
+
+Z=√(〖(0.01kΩ)〗^2+〖(0.15kΩ)〗^2 )∠-〖tan^(-1)〗⁡〖((0.15kΩ)/(0.01kΩ))〗
+
+Z=0.15∠-89.18°kΩ
+
+Z=0.15 kΩ y θ=-86.18°
+
+- c) 1 kHz
+
+X_C=1/2ᴨfC=1/2ᴨ(1kHz)(10µF) =0.015 kΩ
+
+Z=√(R^2+XC^2 )∠-〖tan^(-1)〗⁡〖(Xc/R)〗
+
+Z=√(〖(0.01kΩ)〗^2+〖(0.015kΩ)〗^2 )∠-〖tan^(-1)〗⁡〖((0.015kΩ)/(0.01kΩ))〗
+
+Z=0.018∠-56.30°kΩ
+
+Z=0.018 kΩ y θ=-56.30°
+
+- d) 10 kHz
+
+X_C=1/2ᴨfC=1/2ᴨ(10kHz)(0.039µF) =0.40kΩ
+
+Z=√(R^2+XC^2 )∠-〖tan^(-1)〗⁡〖(Xc/R)〗
+
+Z=√(〖(3.9kΩ)〗^2+〖(0.40kΩ)〗^2 )∠-〖tan^(-1)〗⁡〖((0.40kΩ)/(3.9kΩ))〗
+
+Z=3.92 ∠-5.85°kΩ
+
+Z=3.92kΩ y θ=-5.85°
+
+Se observa que como se incrementa la frecuencia, Xc, Z y ϑ disminuyen.
+
+38. Trace el diagrama fasorial de voltaje para el circuito de la figura 15-91 para una frecuencia de 5 kHz con Vs = 1 V rms.
+ 
+ ![image](https://user-images.githubusercontent.com/105684550/186563673-554e09e5-3570-407b-a440-884516b7eb44.png)
+
+X_C=1/2ᴨfC=1/2ᴨ(5kHz)(0.039µF) =1.63 kΩ
+ 
+Z=R-jX_C
+
+Z=3.9 kΩ-j(1.63kΩ)
+
+Z=√(R^2+XC^2 )∠-〖tan^(-1)〗⁡〖(Xc/R)〗
+
+Z=√(〖(1.63kΩ)〗^2+〖(1.63kΩ)〗^2 )∠-〖tan^(-1)〗⁡〖((1.63kΩ)/(3.9kΩ))〗
+
+Z=2.30∠-22.68°kΩ
+ 
+![image](https://user-images.githubusercontent.com/105684550/186563689-7c5fe224-40cb-4806-82f7-ef0765194aca.png)
+
+40. Determine la impedancia y exprésela en forma polar para el circuito de la figura 15-93.
+ 
+![image](https://user-images.githubusercontent.com/105684550/186563776-cd2980f9-984c-46be-bb34-0a656bd98d35.png)
+
+- la impedancia total es:
+
+Z=((RX_C)/√(R^2+XC^2 ))∠-〖tan^(-1)〗⁡(R/Xc)
+
+Z=(((1200 Ω)(2000Ω))/√(〖(1200 Ω)〗^2+〖(2000Ω)〗^2 ))∠-〖tan^(-1)〗⁡〖(1200Ω/2000Ω)〗
+
+Z=1028.99∠-30.96°kΩ
+
+Z=1028.99Ω y θ=-30.96°
+
+42. Repita el problema 41 para las siguientes frecuencias:
+ 
+ ![image](https://user-images.githubusercontent.com/105684550/186563798-829be383-2d4c-450f-92e1-fc6825ccc823.png)
+ 
+- la impedancia total es:
+
+Z=((RX_C)/√(R^2+XC^2 ))∠-〖tan^(-1)〗⁡(R/Xc)
+
+Z=(((1200 Ω)(2000Ω))/√(〖(1200 Ω)〗^2+〖(2000Ω)〗^2 ))∠-〖tan^(-1)〗⁡〖(1200Ω/2000Ω)〗
+
+Z=1028.99∠-30.96°Ω
+
+Z=1028.99Ω y θ=-30.96°
+
+44. Para el circuito en paralelo de la figura 15-96, encuentre la magnitud de cada corriente de rama y la corriente total. ¿Cuál es el ángulo de fase entre el voltaje aplicado?
+
+![image](https://user-images.githubusercontent.com/105684550/186563840-42faa701-fae1-484c-a0a7-a68a973d5dbc.png)
+ 
+46. Repita el problema 45 con R=5.6 kΩ, C1 = 0.047 µF, C2 =0.022 µF, y f = 500 Hz.
+ 
+![image](https://user-images.githubusercontent.com/105684550/186563867-1a5480e2-a358-4f8b-b807-d5ca8025f591.png)
+ 
+- a) Z
+
+Z=((RX_C)/√(R^2+XC^2 ))∠-〖tan^(-1)〗⁡(R/Xc)
+
+Z=(((5600 Ω)(0.069 Ω))/√(〖(5600 Ω)〗^2+〖(0.069 Ω)〗^2 ))∠-〖tan^(-1)〗⁡〖((5600 Ω)/(0.069 Ω))〗
+
+Z=0.068∠-89.99 °Ω
+
+Z=1028.99Ω y θ=-89.99°
+	
+- b) I_R
+ 
+ I_R=V_S/R=(100∠0° mV)/(5600∠0 °Ω)=0.017∠0° mA
+
+- c) I_C(tot) 
+
+I_C=V_S/X_C =(100∠0° mV)/(0.069∠-90 °Ω)=1449.27∠90° mA
+
+I_tot=I_R+jI_C=0.017mA+j1449.27 mA
+
+I_tot=√(I_R^2+I_C^2 )  ∠-〖tan^(-1)〗⁡(I_C/I_R )  
+
+I_tot=√((0.017mA)^2+(1449.27mA))  ∠-〖tan^(-1)〗⁡((1449.27mA)/(0.017mA))
+
+I_tot=1449.27∠-89.99° mA
+
+I_tot=1449.27 mA
+
+- d) θ:
+
+θ=〖tan^(-1)〗⁡(I_C/I_R )
+
+θ=89.99° 
+
+48. Determine el valor al cual R1 debe ser ajustado para obtener un ángulo de fase de 30° entre el voltaje de fuente y la corriente total en la figura 15-99.
+ 
+ ![image](https://user-images.githubusercontent.com/105684550/186563963-a9daf6c7-d69c-427d-8d98-efa8cd3da5ce.png)
+
+50. ¿Es el circuito de la figura 15-100 predominantemente resistivo o predominantemente capacitivo?
+ 
+ ![image](https://user-images.githubusercontent.com/105684550/186563981-0b4fcab4-d78b-4127-b377-46ad684c2eff.png)
+
+El circuito presente, es predomínate capacitivo, ya se puede observar que hay mayor presencia de capacitores dentro de él, es decir tenemos 3 capacitores C y 2 resistores R.
+
+52. Para el circuito de la figura 15-101, determine lo siguiente:
+ 
+ ![image](https://user-images.githubusercontent.com/105684550/186563998-d27aae36-46a4-4e52-b905-8c29185f9ed1.png)
+
+- a) I_tot
+
+X_C=1/2ᴨfC=1/2ᴨ(1kHz)(0.47µF) =0.33 kΩ
+
+RT= R1+R2||R3
+
+RT=89.85Ω
+
+I_R=V_S/R=(15∠0° V)/(89.85∠0 °Ω)=0.16∠0° A
+
+I_C=V_S/X_C =(15∠0° V)/(330∠-90 °Ω)=0.045∠90° A
+
+I_tot=I_R+jI_C=0.16 A+j0.045 A
+
+I_tot=√(I_R^2+I_C^2 )  ∠-〖tan^(-1)〗⁡(I_C/I_R )  
+
+I_tot=√((0.16A)^2+(0.045A))  ∠-〖tan^(-1)〗⁡((0.045A)/(0.16A))
+
+I_tot=0.17∠-15.70° A
+
+I_tot=0.17 A
+
+- b) θ:
+
+θ=〖tan^(-1)〗⁡(I_C/I_R )
+
+θ=15.70° 
+ 
+54. Determine el voltaje y su ángulo de fase en cada punto rotulado en la figura 15-103.
+ 
+![image](https://user-images.githubusercontent.com/105684550/186564116-2466c5a7-d813-4b6e-b611-c202b72f0f02.png)
+![image](https://user-images.githubusercontent.com/105684550/186564161-2342cc4d-9177-424f-af63-a5a0e2309847.png)
+
+56. Trace el diagrama fasorial de voltaje y corriente para la figura 15-103.
+
+![image](https://user-images.githubusercontent.com/105684550/186564209-17d4a97e-7dee-4049-bc80-6538ab6b8509.png)
+![image](https://user-images.githubusercontent.com/105684550/186564240-91cf712a-27c1-4634-9202-3df2180743e3.png)
 
 58. En la figura 15-88, ¿cuáles son la potencia real y la potencia reactiva?
  
